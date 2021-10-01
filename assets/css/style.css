@@ -6,13 +6,13 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    color: #39a6b2;
+    color: #1c578f;
   }
 
  /* Styles to header */
 header {
   padding: 20px 35px;
-  background-color: #39a6b2;
+  background-color: #1c578f;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -43,14 +43,14 @@ header h1 {
 
   }
 
+  /* Styles to menu */
   header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 16px;
-    /* 1.55vw */
+    font-size: 1.55vw;
   }
 
-    /* Styles to About */
+    /* Styles to Hero */
   .hero {
     background-image: url("../images/blue.jpg");
     height: 300px;
@@ -64,6 +64,8 @@ header h1 {
       position: absolute;
       bottom: 20px;
       right: 40px;
+      color: #fce138;
+      font-size: 40px;
   }
   /* End styles to Hero */
 
@@ -103,19 +105,23 @@ header h1 {
       .work-big {
         background-image: url("../images/work1.jpg");
         height: 300px;
-        width: 50%;
+        width: 80%;
+        margin: auto;
+        border: 4px solid black;
         background-size: cover;
         background-position: center;
-        position: relative;
+        flex-wrap: wrap;
       }
 
       .work-small {
        
         height: 150px;
-        width: 25%;
+        width: 35%;
+        margin: 10px;
         background-size: cover;
         background-position: center;
-        position: relative;
+        border: 4px solid black;
+        flex-wrap: wrap;
       }
 
       .small-container{
@@ -125,9 +131,11 @@ header h1 {
         flex-wrap: wrap;
       }
 
-      /* Add images with id */
+
+      /* Add work images with id */
  #work2 {
   background-image: url("../images/work2.jpg");
+  
 }
 #work3 {
   background-image: url("../images/work3.jpg");
@@ -140,6 +148,21 @@ header h1 {
   background-image: url("../images/work5.jpg")
 }
 
+/* Add text into the work images */
+
+h3 {
+  color: #fce138;
+  position: relative;
+  top: 110px;
+  left: 20px;
+
+}
+
+.text-big {
+  top: 240px;
+  left: 30px;
+}
+
   section {
     padding: 60px;
     }
@@ -148,6 +171,22 @@ header h1 {
     border-right: 3px solid #fce138;
     padding: 30px;
   }
+
+  /* Contact section */
+  .flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .contact-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
 
 
   @media only screen and (max-width: 600px) {
@@ -160,4 +199,4 @@ header h1 {
     section {
     padding: 0
     }
-    }
+  }
