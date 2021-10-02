@@ -185,11 +185,22 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
+}
   
 
 
 @media only screen and (max-width: 600px) {
+  .about {
+  justify-content: center
+  }
+  .about h2 {
+  border-right: 0px;
+  }
+  section {
+  padding: 0
+  }
+}
+@media only screen and (max-width: 800px) {
   .about {
   justify-content: center
   }
