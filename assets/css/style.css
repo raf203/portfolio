@@ -189,7 +189,8 @@ h2 {
   
 
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 800px) {
   .about {
   justify-content: center
   }
@@ -200,7 +201,8 @@ h2 {
   padding: 0
   }
 }
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 600px) {
   .about {
   justify-content: center
   }
