@@ -249,26 +249,3 @@ h2 {
   justify-content: left;
   margin: 0 0 5px 35px;
   }
-/* @media only screen and (max-width: 800px) {
-  #about-me {
-  justify-content: center;
-  }
-  #about-me h2 {
-  border-right: 0px;
-  }
-  section {
-  padding: 0;
-  }
-} */
-
-/* @media only screen and (max-width: 600px) {
-  #about-me {
-  justify-content: center;
-  }
-  #about-me h2 {
-  border-right: 0px;
-  }
-  section {
-  padding: 0;
-  }
-} */
