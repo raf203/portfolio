@@ -13,7 +13,7 @@ When click one of the links in the navigation, the UI scrolls to the correspondi
 When click on the link to the section about their work, the UI scrolls to a section with titled images of the developer's applications.
 The developer's first application should be larger in size than the others.
 Click on the images of the applications and take to that deployed application.
-Responsive layout.
+Responsive layout adapted to different screens.
 
 <img width="1440" alt="Screen Shot 2021-10-01 at 10 43 16 PM" src="https://user-images.githubusercontent.com/89607465/135705153-275f3c76-2cdf-4a57-aafa-f9bdd7d8c9c7.png">
 
