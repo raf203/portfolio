@@ -1,202 +1,202 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    color: #1c578f;
-  }
+  font-family: Helvetica, Arial, sans-serif;
+  color: #1c578f;
+}
 
- /* Styles to header */
+/* Styles to header */
 header {
-  padding: 20px 35px;
-  background-color: #1c578f;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+padding: 20px 35px;
+background-color: #1c578f;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
 }
 
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+}
+
+header a {
+  color: #fce138;
+  text-decoration: none;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+}
+
+/* Styles to menu */
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+  /* Styles to Hero */
+.hero {
+  background-image: url("../images/blue.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero p {
+    text-align: right;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
     color: #fce138;
-    margin: 0;
-  }
-  
-  header a {
-    color: #fce138;
-    text-decoration: none;
-  }
+    font-size: 40px;
+}
+/* End styles to Hero */
 
-  header nav {
-      margin: 7px 0;
-  }
-  
-  header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-
-  }
-
-  /* Styles to menu */
-  header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-  }
-
-    /* Styles to Hero */
-  .hero {
-    background-image: url("../images/blue.jpg");
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-
-  .hero p {
-      text-align: right;
-      position: absolute;
-      bottom: 20px;
-      right: 40px;
-      color: #fce138;
-      font-size: 40px;
-  }
-  /* End styles to Hero */
-
-  /* About section */
-  .about img{
-    width:212px; 
-    height: auto;
-    margin: 0 30px;
+/* About section */
+.about img{
+  width:212px; 
+  height: auto;
+  margin: 0 30px;
 }
 
 .about {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 .about-container{
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    
-  }
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  
+}
 
-  .about-img {
-      flex: 0;
+.about-img {
+    flex: 0;
 
-  }
+}
 
-  .about-text {
-      flex: 1; 
-  }
+.about-text {
+    flex: 1; 
+}
 
 
 /* Styles to Work */
-      .work-big {
-        background-image: url("../images/work1.jpg");
-        height: 300px;
-        width: 80%;
-        margin: auto;
-        border: 4px solid black;
-        background-size: cover;
-        background-position: center;
-        flex-wrap: wrap;
-      }
+    .work-big {
+      background-image: url("../images/work1.jpg");
+      height: 300px;
+      width: 90%;
+      margin: auto;
+      border: 4px solid black;
+      background-size: cover;
+      background-position: center;
+      flex-wrap: wrap;
+    }
 
-      .work-small {
-       
-        height: 150px;
-        width: 35%;
-        margin: 10px;
-        background-size: cover;
-        background-position: center;
-        border: 4px solid black;
-        flex-wrap: wrap;
-      }
+    .work-small {
+     
+      height: 150px;
+      width: 45%;
+      margin: 10px;
+      background-size: cover;
+      background-position: center;
+      border: 4px solid black;
+      flex-wrap: wrap;
+    }
 
-      .small-container{
-        width: 100%;
-        margin: 20px;
-        display: flex;
-        flex-wrap: wrap;
-      }
+    .small-container{
+      width: 100%;
+      margin: 20px;
+      display: flex;
+      flex-wrap: wrap;
+    }
 
 
-      /* Add work images with id */
- #work2 {
-  background-image: url("../images/work2.jpg");
-  
+    /* Add work images with id */
+#work2 {
+background-image: url("../images/work2.jpg");
+
 }
 #work3 {
-  background-image: url("../images/work3.jpg");
+background-image: url("../images/work3.jpg");
 }
 #work4 {
-  background-image: url("../images/work4.jpg");
-  
+background-image: url("../images/work4.jpg");
+
 }
 #work5{
-  background-image: url("../images/work5.jpg")
+background-image: url("../images/work5.jpg")
 }
 
 /* Add text into the work images */
 
 h3 {
-  color: #fce138;
-  position: relative;
-  top: 110px;
-  left: 20px;
+color: #fce138;
+position: relative;
+top: 110px;
+left: 20px;
 
 }
 
 .text-big {
-  top: 240px;
-  left: 30px;
+top: 240px;
+left: 30px;
 }
 
+section {
+  padding: 60px;
+  }
+
+h2 {
+  border-right: 3px solid #fce138;
+  padding: 30px;
+}
+
+/* Contact section */
+.flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.contact-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  
+
+
+@media only screen and (max-width: 600px) {
+  .about {
+  justify-content: center
+  }
+  .about h2 {
+  border-right: 0px;
+  }
   section {
-    padding: 60px;
-    }
-
-  h2 {
-    border-right: 3px solid #fce138;
-    padding: 30px;
+  padding: 0
   }
-
-  /* Contact section */
-  .flex {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-  }
-
-  .contact-container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    
-
-
-  @media only screen and (max-width: 600px) {
-    .about {
-    justify-content: center
-    }
-    .about h2 {
-    border-right: 0px;
-    }
-    section {
-    padding: 0
-    }
-  }
+}
