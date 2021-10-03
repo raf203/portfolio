@@ -200,6 +200,7 @@ h2 {
 }
 
 .resume-container{
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -211,7 +212,7 @@ h2 {
 
 
 
-
+/* Responsive format */
 
 @media screen and (max-width: 800px) {
   .about {
